@@ -1,0 +1,269 @@
+2025-03-23 15:10:32,766 - __main__ - ERROR - Error starting bot: cannot import name 'init_db' from 'src.database' (/Users/imac/Новая папка 6/vpn_bot/src/database/__init__.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 13, in <module>
+    from .database import init_db
+ImportError: cannot import name 'init_db' from 'src.database' (/Users/imac/Новая папка 6/vpn_bot/src/database/__init__.py)
+2025-03-23 15:13:52,918 - __main__ - ERROR - Error starting bot: cannot import name 'get_admin_keyboard' from 'src.keyboards.admin' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/admin.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 6, in <module>
+    from .admin import router as admin_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/admin.py", line 12, in <module>
+    from ..keyboards import admin_keyboard
+  File "/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py", line 6, in <module>
+    from .admin import get_admin_keyboard, get_admin_tariff_keyboard, get_admin_edit_user_keyboard
+ImportError: cannot import name 'get_admin_keyboard' from 'src.keyboards.admin' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/admin.py)
+2025-03-23 15:16:49,007 - __main__ - ERROR - Error starting bot: cannot import name 'get_server_keyboard' from 'src.keyboards.server' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/server.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 6, in <module>
+    from .admin import router as admin_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/admin.py", line 12, in <module>
+    from ..keyboards import admin_keyboard
+  File "/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py", line 12, in <module>
+    from .server import get_server_keyboard, get_server_edit_keyboard
+ImportError: cannot import name 'get_server_keyboard' from 'src.keyboards.server' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/server.py)
+2025-03-23 15:17:12,865 - __main__ - ERROR - Error starting bot: cannot import name 'get_referral_keyboard' from 'src.keyboards.referral' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/referral.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 6, in <module>
+    from .admin import router as admin_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/admin.py", line 12, in <module>
+    from ..keyboards import admin_keyboard
+  File "/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py", line 14, in <module>
+    from .referral import get_referral_keyboard, get_bonus_days_keyboard, get_referrer_keyboard
+ImportError: cannot import name 'get_referral_keyboard' from 'src.keyboards.referral' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/referral.py)
+2025-03-23 15:17:52,950 - __main__ - ERROR - Error starting bot: cannot import name 'admin_keyboard' from 'src.keyboards' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 6, in <module>
+    from .admin import router as admin_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/admin.py", line 12, in <module>
+    from ..keyboards import admin_keyboard
+ImportError: cannot import name 'admin_keyboard' from 'src.keyboards' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py)
+2025-03-23 15:18:21,073 - __main__ - ERROR - Error starting bot: cannot import name 'main_keyboard' from 'src.keyboards' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 7, in <module>
+    from .start import router as start_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/start.py", line 8, in <module>
+    from ..keyboards import main_keyboard
+ImportError: cannot import name 'main_keyboard' from 'src.keyboards' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py)
+2025-03-23 15:18:43,277 - __main__ - ERROR - Error starting bot: No module named 'src.middlewares.auth'
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 7, in <module>
+    from .start import router as start_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/start.py", line 9, in <module>
+    from ..middlewares.auth import AuthMiddleware
+ModuleNotFoundError: No module named 'src.middlewares.auth'
+2025-03-23 15:19:14,336 - __main__ - ERROR - Error starting bot: cannot import name 'XRAY_API_HOST' from 'src.settings' (/Users/imac/Новая папка 6/vpn_bot/src/settings.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 8, in <module>
+    from .buy import router as buy_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/buy.py", line 16, in <module>
+    from ..services.payment_service import create_payment, check_payment
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/__init__.py", line 1, in <module>
+    from .vpn_service import VPNService
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/vpn_service.py", line 4, in <module>
+    from ..api import XRayAPI
+  File "/Users/imac/Новая папка 6/vpn_bot/src/api/__init__.py", line 1, in <module>
+    from .xray_api import XRayAPI
+  File "/Users/imac/Новая папка 6/vpn_bot/src/api/xray_api.py", line 9, in <module>
+    from ..settings import XRAY_API_HOST, XRAY_API_USERNAME, XRAY_API_PASSWORD
+ImportError: cannot import name 'XRAY_API_HOST' from 'src.settings' (/Users/imac/Новая папка 6/vpn_bot/src/settings.py)
+2025-03-23 15:20:00,177 - __main__ - ERROR - Error starting bot: cannot import name 'PAYMENT_TOKEN' from 'src.settings' (/Users/imac/Новая папка 6/vpn_bot/src/settings.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 8, in <module>
+    from .buy import router as buy_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/buy.py", line 16, in <module>
+    from ..services.payment_service import create_payment, check_payment
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/__init__.py", line 2, in <module>
+    from .payment_service import PaymentService, payment_service
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/payment_service.py", line 10, in <module>
+    from ..payments import YooKassaPaymentProvider
+  File "/Users/imac/Новая папка 6/vpn_bot/src/payments/__init__.py", line 1, in <module>
+    from .yookassa_payment import YooKassaPaymentProvider
+  File "/Users/imac/Новая папка 6/vpn_bot/src/payments/yookassa_payment.py", line 10, in <module>
+    from ..settings import PAYMENT_TOKEN
+ImportError: cannot import name 'PAYMENT_TOKEN' from 'src.settings' (/Users/imac/Новая папка 6/vpn_bot/src/settings.py)
+2025-03-23 15:20:23,044 - __main__ - ERROR - Error starting bot: cannot import name 'XRayAPIError' from 'src.exceptions' (/Users/imac/Новая папка 6/vpn_bot/src/exceptions.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 8, in <module>
+    from .buy import router as buy_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/buy.py", line 16, in <module>
+    from ..services.payment_service import create_payment, check_payment
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/__init__.py", line 4, in <module>
+    from .xray_api import XRayAPI, xray_api
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/xray_api.py", line 11, in <module>
+    from ..exceptions import XRayAPIError
+ImportError: cannot import name 'XRayAPIError' from 'src.exceptions' (/Users/imac/Новая папка 6/vpn_bot/src/exceptions.py)
+2025-03-23 15:20:46,639 - __main__ - ERROR - Error starting bot: 'Settings' object has no attribute 'XRAY_API_HOST'
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 8, in <module>
+    from .buy import router as buy_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/buy.py", line 16, in <module>
+    from ..services.payment_service import create_payment, check_payment
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/__init__.py", line 4, in <module>
+    from .xray_api import XRayAPI, xray_api
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/xray_api.py", line 296, in <module>
+    xray_api = XRayAPI()
+  File "/Users/imac/Новая папка 6/vpn_bot/src/services/xray_api.py", line 25, in __init__
+    self.host = host or settings.XRAY_API_HOST
+AttributeError: 'Settings' object has no attribute 'XRAY_API_HOST'
+2025-03-23 15:21:16,124 - __main__ - ERROR - Error starting bot: cannot import name 'create_payment' from 'src.services.payment_service' (/Users/imac/Новая папка 6/vpn_bot/src/services/payment_service.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 8, in <module>
+    from .buy import router as buy_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/buy.py", line 16, in <module>
+    from ..services.payment_service import create_payment, check_payment
+ImportError: cannot import name 'create_payment' from 'src.services.payment_service' (/Users/imac/Новая папка 6/vpn_bot/src/services/payment_service.py)
+2025-03-23 15:22:47,691 - __main__ - ERROR - Error starting bot: No module named 'src.middlewares.auth'
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 8, in <module>
+    from .buy import router as buy_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/buy.py", line 17, in <module>
+    from ..middlewares.auth import AuthMiddleware
+ModuleNotFoundError: No module named 'src.middlewares.auth'
+2025-03-23 15:24:53,464 - __main__ - ERROR - Error starting bot: No module named 'src.handlers.user'
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 10, in <module>
+    from .user import router as user_router
+ModuleNotFoundError: No module named 'src.handlers.user'
+2025-03-23 15:25:38,768 - __main__ - ERROR - Error starting bot: No module named 'src.models.bonus'
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 12, in <module>
+    from .referral import router as referral_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/referral.py", line 13, in <module>
+    from ..models.bonus import Bonus
+ModuleNotFoundError: No module named 'src.models.bonus'
+2025-03-23 15:26:45,053 - __main__ - ERROR - Error starting bot: cannot import name 'get_apply_bonus_kb' from 'src.keyboards.referral' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/referral.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 12, in <module>
+    from .referral import router as referral_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/referral.py", line 14, in <module>
+    from ..keyboards.referral import get_referral_kb, get_referral_stats_kb, get_apply_bonus_kb, get_apply_days_kb, get_back_kb
+ImportError: cannot import name 'get_apply_bonus_kb' from 'src.keyboards.referral' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/referral.py)
+2025-03-23 15:27:12,941 - __main__ - ERROR - Error starting bot: cannot import name 'get_platform_kb' from 'src.keyboards.instructions' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/instructions.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 13, in <module>
+    from .instructions import router as instructions_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/instructions.py", line 11, in <module>
+    from ..keyboards.instructions import get_platform_kb, get_instructions_kb, get_back_to_platforms_kb
+ImportError: cannot import name 'get_platform_kb' from 'src.keyboards.instructions' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/instructions.py)
+2025-03-23 15:29:22,101 - __main__ - ERROR - Error starting bot: cannot import name 'subscriptions_list_keyboard' from 'src.keyboards' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py", line 16, in <module>
+    from .subscriptions import router as subscriptions_router
+  File "/Users/imac/Новая папка 6/vpn_bot/src/handlers/subscriptions.py", line 8, in <module>
+    from ..keyboards import (
+ImportError: cannot import name 'subscriptions_list_keyboard' from 'src.keyboards' (/Users/imac/Новая папка 6/vpn_bot/src/keyboards/__init__.py)
+2025-03-23 15:30:08,386 - __main__ - ERROR - Error starting bot: cannot import name 'routers' from 'src.handlers' (/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py)
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 29, in <module>
+    from src.main import main
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 15, in <module>
+    from .handlers import routers
+ImportError: cannot import name 'routers' from 'src.handlers' (/Users/imac/Новая папка 6/vpn_bot/src/handlers/__init__.py)
+2025-03-23 15:30:53,246 - __main__ - INFO - Starting VPN Bot...
+2025-03-23 15:30:53,247 - src.main - INFO - Запуск бота...
+2025-03-23 15:30:53,248 - src.main - INFO - Загружены настройки для окружения: development
+2025-03-23 15:30:53,346 - src.database.db_sqlite - INFO - Таблицы базы данных инициализированы
+2025-03-23 15:30:53,350 - src.database.db_sqlite - INFO - Дефолтные тарифы добавлены в базу данных
+2025-03-23 15:30:53,353 - src.database.db_sqlite - INFO - Дефолтные кластеры добавлены в базу данных
+2025-03-23 15:30:53,356 - src.database.db_sqlite - INFO - Дефолтные серверы добавлены в базу данных
+2025-03-23 15:30:53,357 - src.database.db_sqlite - INFO - Подключение к SQLite базе данных установлено: vpn_bot_test.db
+2025-03-23 15:30:53,357 - src.main - INFO - База данных инициализирована
+2025-03-23 15:30:53,357 - src.main - ERROR - Ошибка при создании пробного тарифа: 'NoneType' object has no attribute 'find_one'
+2025-03-23 15:30:53,357 - src.main - INFO - Дефолтные данные инициализированы
+2025-03-23 15:30:53,358 - __main__ - ERROR - Error starting bot: Token is invalid!
+Traceback (most recent call last):
+  File "/Users/imac/Новая папка 6/vpn_bot/main.py", line 33, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/Users/imac/Новая папка 6/vpn_bot/src/main.py", line 78, in main
+    bot = Bot(token=settings.bot_token, parse_mode=ParseMode.HTML)
+  File "/Users/imac/Library/Python/3.9/lib/python/site-packages/aiogram/client/bot.py", line 258, in __init__
+    validate_token(token)
+  File "/Users/imac/Library/Python/3.9/lib/python/site-packages/aiogram/utils/token.py", line 27, in validate_token
+    raise TokenValidationError("Token is invalid!")
+aiogram.utils.token.TokenValidationError: Token is invalid!
+2025-03-23 15:34:45,468 - __main__ - INFO - Starting VPN Bot...
+2025-03-23 15:34:45,469 - src.main - INFO - Запуск бота...
+2025-03-23 15:34:45,469 - src.main - INFO - Загружены настройки для окружения: development
+2025-03-23 15:34:45,475 - src.database.db_sqlite - INFO - Таблицы базы данных инициализированы
+2025-03-23 15:34:45,477 - src.database.db_sqlite - INFO - Подключение к SQLite базе данных установлено: vpn_bot_test.db
+2025-03-23 15:34:45,477 - src.main - INFO - База данных инициализирована
+2025-03-23 15:34:45,477 - src.main - ERROR - Ошибка при создании пробного тарифа: 'NoneType' object has no attribute 'find_one'
+2025-03-23 15:34:45,477 - src.main - INFO - Дефолтные данные инициализированы
+2025-03-23 15:34:46,021 - src.main - INFO - Вебхук удален, старт поллинга...
+2025-03-23 15:35:29,370 - src.models.user - ERROR - Error getting user by Telegram ID 7940323274: 'NoneType' object has no attribute 'find_one'
+2025-03-23 15:35:29,371 - src.middleware.auth - ERROR - Database error in auth middleware: Failed to get user: 'NoneType' object has no attribute 'find_one'
+2025-03-23 16:07:04,847 - src.models.user - ERROR - Error getting user by Telegram ID 7940323274: 'NoneType' object has no attribute 'find_one'
+2025-03-23 16:07:04,848 - src.middleware.auth - ERROR - Database error in auth middleware: Failed to get user: 'NoneType' object has no attribute 'find_one'
